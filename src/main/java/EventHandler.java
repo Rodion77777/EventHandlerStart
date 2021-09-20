@@ -73,22 +73,22 @@ public class EventHandler implements WebDriverEventListener {
 
     @Override
     public void beforeFindBy(By by, WebElement webElement, WebDriver webDriver) {
-        LOGGER.log(Level.INFO, "Should be " + by + "\n");
+        LOGGER.log(Level.INFO, "Should be {0}\n", by.toString());
     }
 
     @Override
     public void afterFindBy(By by, WebElement webElement, WebDriver webDriver) {
-        LOGGER.finer("Element found\n");
+        LOGGER.fine("Element found\n");
     }
 
     @Override
     public void beforeClickOn(WebElement webElement, WebDriver webDriver) {
-        LOGGER.log(Level.INFO, "Should be " + webElement.getTagName() + "\n");
+        LOGGER.log(Level.INFO, "Should be {0}\n", webElement.getTagName());
     }
 
     @Override
     public void afterClickOn(WebElement webElement, WebDriver webDriver) {
-        LOGGER.finer("Clicked successfully\n");
+        LOGGER.fine("Clicked successfully\n");
     }
 
     @Override
