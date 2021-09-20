@@ -1,0 +1,27 @@
+сент. 20, 2021 11:19:06 PM JULogger <init>
+CONFIG: Configuration done.
+
+сент. 20, 2021 11:19:06 PM JULogger <init>
+FINE: Finer logged
+
+сент. 20, 2021 11:19:06 PM JULogger <init>
+FINER: Finest example on LOGGER handler completed.
+
+сент. 20, 2021 11:19:07 PM EventHandler beforeFindBy
+INFO: Should be element: By.xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a
+
+сент. 20, 2021 11:19:07 PM EventHandler afterFindBy
+FINE: Element found
+
+сент. 20, 2021 11:19:07 PM EventHandler beforeClickOn
+INFO: Should be element: a
+
+сент. 20, 2021 11:19:08 PM EventHandler afterClickOn
+FINE: Clicked successfully
+
+сент. 20, 2021 11:19:08 PM EventHandler beforeFindBy
+INFO: Should be element: By.id: email
+
+сент. 20, 2021 11:19:08 PM EventHandler afterFindBy
+FINE: Element found
+

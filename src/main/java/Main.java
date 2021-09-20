@@ -12,7 +12,7 @@ public class Main {
     private static final String path = "./src/main/resources/chromedriver_win32/chromedriver.exe";
     private static final String siteAddress = "http://prestashop.qatestlab.com.ua/ru/";
     private static final String xpath = "//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a";
-    private static final String xpathElementForWait = "//*[@id=\"email\"]";
+    private static final String idElementForWait = "email";
 
     public static void main (String[] args) {
 
@@ -29,7 +29,7 @@ public class Main {
         eventDriver.findElement(By.xpath(xpath)).click();
 
         new WebDriverWait(eventDriver, 10)
-                .until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpathElementForWait)));
+                .until(ExpectedConditions.visibilityOfElementLocated(By.id(idElementForWait)));
 
         eventDriver.close();
         eventDriver.quit();
