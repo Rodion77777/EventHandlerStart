@@ -1,27 +1,44 @@
-сент. 20, 2021 11:23:17 PM JULogger <init>
+сент. 25, 2021 12:20:23 AM JULogger <init>
 CONFIG: Configuration done.
 
-сент. 20, 2021 11:23:17 PM JULogger <init>
+сент. 25, 2021 12:20:23 AM JULogger <init>
 FINE: Finer logged
 
-сент. 20, 2021 11:23:17 PM JULogger <init>
+сент. 25, 2021 12:20:23 AM JULogger <init>
 FINER: Finest example on LOGGER handler completed.
 
-сент. 20, 2021 11:23:18 PM EventHandler beforeFindBy
-INFO: Should be element: By.xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a
+сент. 25, 2021 12:20:25 AM EventHandler beforeNavigateTo
+INFO: Navigate to : http://prestashop.qatestlab.com.ua/ru/
 
-сент. 20, 2021 11:23:18 PM EventHandler afterFindBy
+сент. 25, 2021 12:20:27 AM EventHandler afterNavigateTo
+FINE: Current URL: http://prestashop.qatestlab.com.ua/ru/
+
+сент. 25, 2021 12:20:27 AM EventHandler beforeFindBy
+INFO: Find element by: By.xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a
+
+сент. 25, 2021 12:20:27 AM EventHandler afterFindBy
 FINE: Element successfully found.
 
-сент. 20, 2021 11:23:18 PM EventHandler beforeClickOn
-INFO: Should be element: a
+сент. 25, 2021 12:20:27 AM EventHandler beforeClickOn
+INFO: Find element by: [[ChromeDriver: chrome on WINDOWS (f7ccbe185210c806e83c1e3d84e6ecd5)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a]
 
-сент. 20, 2021 11:23:18 PM EventHandler afterClickOn
+сент. 25, 2021 12:20:28 AM EventHandler afterClickOn
 FINE: Clicked successfully.
 
-сент. 20, 2021 11:23:18 PM EventHandler beforeFindBy
-INFO: Should be element: By.id: email
+сент. 25, 2021 12:20:28 AM EventHandler beforeFindBy
+INFO: Find element by: By.xpath: //*[@id="login_form"]/h3
 
-сент. 20, 2021 11:23:18 PM EventHandler afterFindBy
+сент. 25, 2021 12:20:28 AM EventHandler afterFindBy
 FINE: Element successfully found.
 
+сент. 25, 2021 12:20:28 AM EventHandler beforeGetText
+INFO: Trying to retrieve text from element: [[ChromeDriver: chrome on WINDOWS (f7ccbe185210c806e83c1e3d84e6ecd5)] -> xpath: //*[@id="login_form"]/h3]
+
+сент. 25, 2021 12:20:28 AM EventHandler afterGetText
+FINE: Text successfully received!
+
+сент. 25, 2021 12:20:28 AM EventHandler beforeFindBy
+INFO: Find element by: By.id: email
+
+сент. 25, 2021 12:20:28 AM Main main
+INFO: Test log
